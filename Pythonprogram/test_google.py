@@ -30,7 +30,7 @@ def test_Instagram():
     Driver.implicitly_wait(30)
     Driver.get("https://www.instagram.com/")
     Driver.title=="Instagram"
-    Driver.quit(
+    Driver.quit()
     
     
 def test_youtube():
@@ -42,6 +42,31 @@ def test_youtube():
     Driver.get("https://www.youtube.com/")
     Driver.title=="YouTube"
     Driver.quit()
+    
+
+    
+    
+
+    
+
+
+    
+    
+    
+
+    
+
+    
+    
+
+
+    
+    
+    
+    
+
+    
+    
     
 
     
